@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1024" width="1440" height="1024">
+  <defs>
+    <filter id="shadow1">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="shadow2">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1440" height="1024" rx="20" fill="#E6E6E6"/>
+
+  <!-- Top Navigation Bar -->
+  <rect x="40" y="24" width="1360" height="56" rx="28" fill="#0E0E0E" fill-opacity="0.8" filter="url(#shadow1)"/>
+  <text x="80" y="58" fill="white" font-family="D-DIN, sans-serif" font-size="20" font-weight="bold" letter-spacing="0.05em">human.md</text>
+  <text x="320" y="58" fill="white" font-family="NU Sans, Inter, sans-serif" font-size="14" font-weight="bold" opacity="0.8">Form Factors</text>
+  <text x="1360" y="58" fill="#888888" font-family="Inter, sans-serif" font-size="13" text-anchor="end">PAGE 5 / 5</text>
+
+  <!-- Title -->
+  <text x="80" y="128" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="32" font-weight="bold">Form Factor Agnostic</text>
+  <text x="80" y="156" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="15" font-weight="bold">Same core hardware, same protocol — any physical form that keeps you authenticated</text>
+
+  <!-- Form Factor 1: Pendant -->
+  <g filter="url(#shadow1)">
+    <rect x="80" y="184" width="250" height="280" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="110" y="204" width="50" height="50" rx="12" fill="#00E87A"/>
+  <text x="135" y="236" fill="white" font-family="D-DIN, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">P</text>
+  <text x="174" y="234" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="18" font-weight="bold">Pendant</text>
+  <rect x="110" y="264" width="190" height="1" fill="#333333" opacity="0.15"/>
+  <text x="110" y="288" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Worn around neck</text>
+  <text x="110" y="310" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Always-on skin contact</text>
+  <text x="110" y="330" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Fingerprint on surface</text>
+  <text x="110" y="350" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Profile button</text>
+  <text x="110" y="370" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  NFC tap-to-share</text>
+  <rect x="110" y="390" width="190" height="1" fill="#333333" opacity="0.15"/>
+  <text x="110" y="412" fill="#00E87A" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Best for: everyday carry,</text>
+  <text x="110" y="430" fill="#00E87A" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">continuous authentication</text>
+  <rect x="110" y="442" width="80" height="18" rx="9" fill="#0A1A0F"/>
+  <text x="150" y="454" fill="#00E87A" font-family="Inter, sans-serif" font-size="9" font-weight="bold" text-anchor="middle">WEARABLE</text>
+
+  <!-- Form Factor 2: Ring -->
+  <g filter="url(#shadow1)">
+    <rect x="356" y="184" width="250" height="280" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="386" y="204" width="50" height="50" rx="12" fill="#6B7FFF"/>
+  <text x="411" y="236" fill="white" font-family="D-DIN, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">R</text>
+  <text x="450" y="234" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="18" font-weight="bold">Ring</text>
+  <rect x="386" y="264" width="190" height="1" fill="#333333" opacity="0.15"/>
+  <text x="386" y="288" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Worn on finger</text>
+  <text x="386" y="310" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Continuous skin contact</text>
+  <text x="386" y="330" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Capacitive touch auth</text>
+  <text x="386" y="350" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Minimal, discreet</text>
+  <text x="386" y="370" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  BLE broadcast only</text>
+  <rect x="386" y="390" width="190" height="1" fill="#333333" opacity="0.15"/>
+  <text x="386" y="412" fill="#6B7FFF" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Best for: minimal profile,</text>
+  <text x="386" y="430" fill="#6B7FFF" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">always-worn authentication</text>
+  <rect x="386" y="442" width="80" height="18" rx="9" fill="#0A0F1A"/>
+  <text x="426" y="454" fill="#6B7FFF" font-family="Inter, sans-serif" font-size="9" font-weight="bold" text-anchor="middle">WEARABLE</text>
+
+  <!-- Form Factor 3: Clip / Badge -->
+  <g filter="url(#shadow1)">
+    <rect x="632" y="184" width="250" height="280" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="662" y="204" width="50" height="50" rx="12" fill="#FF5F2E"/>
+  <text x="687" y="236" fill="white" font-family="D-DIN, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">C</text>
+  <text x="726" y="234" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="18" font-weight="bold">Clip / Badge</text>
+  <rect x="662" y="264" width="190" height="1" fill="#333333" opacity="0.15"/>
+  <text x="662" y="288" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Clipped to clothing</text>
+  <text x="662" y="310" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Fingerprint on press</text>
+  <text x="662" y="330" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Visual status LED</text>
+  <text x="662" y="350" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  BLE + NFC</text>
+  <text x="662" y="370" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Enterprise-friendly</text>
+  <rect x="662" y="390" width="190" height="1" fill="#333333" opacity="0.15"/>
+  <text x="662" y="412" fill="#FF5F2E" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Best for: workplace, events,</text>
+  <text x="662" y="430" fill="#FF5F2E" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">conferences, access control</text>
+  <rect x="662" y="442" width="80" height="18" rx="9" fill="#1A0A0A"/>
+  <text x="702" y="454" fill="#FF5F2E" font-family="Inter, sans-serif" font-size="9" font-weight="bold" text-anchor="middle">PORTABLE</text>
+
+  <!-- Form Factor 4: USB-C Stick -->
+  <g filter="url(#shadow1)">
+    <rect x="908" y="184" width="250" height="280" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="938" y="204" width="50" height="50" rx="12" fill="#FD7600"/>
+  <text x="963" y="236" fill="white" font-family="D-DIN, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">U</text>
+  <text x="1002" y="234" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="18" font-weight="bold">USB-C Stick</text>
+  <rect x="938" y="264" width="190" height="1" fill="#333333" opacity="0.15"/>
+  <text x="938" y="288" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Plugs into any device</text>
+  <text x="938" y="310" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Fingerprint on cap</text>
+  <text x="938" y="330" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Direct data transfer</text>
+  <text x="938" y="350" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  BLE when unplugged</text>
+  <text x="938" y="370" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Powers from host USB</text>
+  <rect x="938" y="390" width="190" height="1" fill="#333333" opacity="0.15"/>
+  <text x="938" y="412" fill="#FD7600" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Best for: developer use,</text>
+  <text x="938" y="430" fill="#FD7600" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">desktop sessions, kiosks</text>
+  <rect x="938" y="442" width="80" height="18" rx="9" fill="#1A0F0A"/>
+  <text x="978" y="454" fill="#FD7600" font-family="Inter, sans-serif" font-size="9" font-weight="bold" text-anchor="middle">PLUGGABLE</text>
+
+  <!-- Form Factor 5: Phone Case -->
+  <g filter="url(#shadow1)">
+    <rect x="1184" y="184" width="250" height="280" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="1214" y="204" width="50" height="50" rx="12" fill="#E00061"/>
+  <text x="1239" y="236" fill="white" font-family="D-DIN, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">M</text>
+  <text x="1278" y="234" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="18" font-weight="bold">Phone Case</text>
+  <rect x="1214" y="264" width="190" height="1" fill="#333333" opacity="0.15"/>
+  <text x="1214" y="288" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Integrated with phone</text>
+  <text x="1214" y="310" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Rear fingerprint sensor</text>
+  <text x="1214" y="330" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Uses phone's WiFi/BLE</text>
+  <text x="1214" y="350" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  NFC passthrough</text>
+  <text x="1214" y="370" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  App companion display</text>
+  <rect x="1214" y="390" width="190" height="1" fill="#333333" opacity="0.15"/>
+  <text x="1214" y="412" fill="#E00061" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Best for: phone-centric users,</text>
+  <text x="1214" y="430" fill="#E00061" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">maximum connectivity</text>
+  <rect x="1214" y="442" width="80" height="18" rx="9" fill="#1A0A1A"/>
+  <text x="1254" y="454" fill="#E00061" font-family="Inter, sans-serif" font-size="9" font-weight="bold" text-anchor="middle">HYBRID</text>
+
+  <!-- Common Hardware Core -->
+  <g filter="url(#shadow1)">
+    <rect x="80" y="490" width="1280" height="220" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <text x="720" y="524" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Common Hardware Core — Shared Across All Form Factors</text>
+  <rect x="110" y="540" width="1220" height="1" fill="#333333" opacity="0.15"/>
+
+  <!-- Core components grid -->
+  <rect x="110" y="560" width="190" height="60" rx="12" fill="#EFEFEF" fill-opacity="0.8"/>
+  <text x="205" y="584" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">ESP32-S3</text>
+  <text x="205" y="604" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">MCU + WiFi + BLE 5.0</text>
+
+  <rect x="320" y="560" width="190" height="60" rx="12" fill="#EFEFEF" fill-opacity="0.8"/>
+  <text x="415" y="584" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">ATECC608B</text>
+  <text x="415" y="604" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Secure element</text>
+
+  <rect x="530" y="560" width="190" height="60" rx="12" fill="#EFEFEF" fill-opacity="0.8"/>
+  <text x="625" y="584" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Fingerprint</text>
+  <text x="625" y="604" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Capacitive sensor</text>
+
+  <rect x="740" y="560" width="190" height="60" rx="12" fill="#EFEFEF" fill-opacity="0.8"/>
+  <text x="835" y="584" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">NFC</text>
+  <text x="835" y="604" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Tap-to-share identity</text>
+
+  <rect x="950" y="560" width="190" height="60" rx="12" fill="#EFEFEF" fill-opacity="0.8"/>
+  <text x="1045" y="584" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Skin Sensor</text>
+  <text x="1045" y="604" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Contact detection</text>
+
+  <rect x="1160" y="560" width="190" height="60" rx="12" fill="#EFEFEF" fill-opacity="0.8"/>
+  <text x="1255" y="584" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Battery</text>
+  <text x="1255" y="604" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">LiPo + USB-C charge</text>
+
+  <text x="110" y="660" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">All form factors share the same BLE GATT service profile, NFC NDEF schema, and human.md signing protocol</text>
+  <text x="110" y="684" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">Independent patent claim covers the form-factor agnostic module — dependent claims cover each specific embodiment</text>
+
+  <!-- Patent Claim Strategy -->
+  <g filter="url(#shadow1)">
+    <rect x="80" y="730" width="1280" height="170" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <text x="110" y="762" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="18" font-weight="bold">Patent Claim Structure</text>
+  <rect x="110" y="778" width="1220" height="1" fill="#333333" opacity="0.15"/>
+
+  <rect x="110" y="796" width="380" height="44" rx="10" fill="#0A1A0F"/>
+  <text x="300" y="822" fill="#00E87A" font-family="D-DIN, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Independent: Form-factor agnostic BIM</text>
+
+  <rect x="530" y="796" width="200" height="44" rx="10" fill="#0A0F1A"/>
+  <text x="630" y="822" fill="#6B7FFF" font-family="D-DIN, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Dep: Pendant</text>
+
+  <rect x="750" y="796" width="150" height="44" rx="10" fill="#0A0F1A"/>
+  <text x="825" y="822" fill="#6B7FFF" font-family="D-DIN, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Dep: Ring</text>
+
+  <rect x="920" y="796" width="150" height="44" rx="10" fill="#0A0F1A"/>
+  <text x="995" y="822" fill="#6B7FFF" font-family="D-DIN, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Dep: Clip</text>
+
+  <rect x="1090" y="796" width="150" height="44" rx="10" fill="#0A0F1A"/>
+  <text x="1165" y="822" fill="#6B7FFF" font-family="D-DIN, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Dep: USB-C</text>
+
+  <rect x="1260" y="796" width="100" height="44" rx="10" fill="#0A0F1A"/>
+  <text x="1310" y="822" fill="#6B7FFF" font-family="D-DIN, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Dep: Case</text>
+
+  <text x="110" y="870" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Broadest protection: if the independent claim is invalidated, each form factor still has independent protection as dependent claims</text>
+
+  <!-- Bottom bar -->
+  <rect x="40" y="944" width="1360" height="56" rx="28" fill="#EFEFEF" fill-opacity="0.5" filter="url(#shadow2)"/>
+  <text x="80" y="978" fill="#0C0C0C" font-family="NU Sans, Inter, sans-serif" font-size="16" font-weight="bold">humanmd.app</text>
+  <text x="300" y="978" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Same core, any form — identity is form-factor agnostic</text>
+  <text x="1360" y="978" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" text-anchor="end">816 Enterprises LLC</text>
+  <circle cx="640" cy="976" r="6" fill="#00E87A"/>
+  <circle cx="662" cy="976" r="6" fill="#6B7FFF"/>
+  <circle cx="684" cy="976" r="6" fill="#FF5F2E"/>
+  <circle cx="706" cy="976" r="6" fill="#E00061"/>
+  <circle cx="728" cy="976" r="6" fill="#FD7600"/>
+</svg>

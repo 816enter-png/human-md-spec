@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1024" width="1440" height="1024">
+  <defs>
+    <filter id="shadow1">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="shadow2">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1440" height="1024" rx="20" fill="#E6E6E6"/>
+
+  <!-- Top Navigation Bar -->
+  <rect x="40" y="24" width="1360" height="56" rx="28" fill="#0E0E0E" fill-opacity="0.8" filter="url(#shadow1)"/>
+  <text x="80" y="58" fill="white" font-family="D-DIN, sans-serif" font-size="20" font-weight="bold" letter-spacing="0.05em">human.md</text>
+  <text x="320" y="58" fill="white" font-family="NU Sans, Inter, sans-serif" font-size="14" font-weight="bold" opacity="0.8">Trust Chain</text>
+  <text x="1360" y="58" fill="#888888" font-family="Inter, sans-serif" font-size="13" text-anchor="end">PAGE 3 / 5</text>
+
+  <!-- Title -->
+  <text x="80" y="128" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="32" font-weight="bold">Authenticated Trust Chain</text>
+  <text x="80" y="156" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="15" font-weight="bold">Human (fingerprint) &#x2192; Authenticated App &#x2192; Signed File &#x2192; Physical Module &#x2192; AI Agent</text>
+
+  <!-- Chain Node 1: Human -->
+  <g filter="url(#shadow1)">
+    <rect x="80" y="190" width="220" height="180" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="110" y="210" width="44" height="44" rx="22" fill="#00E87A"/>
+  <text x="132" y="240" fill="white" font-family="Inter, sans-serif" font-size="22" text-anchor="middle">&#x263A;</text>
+  <text x="166" y="236" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="16" font-weight="bold">Human</text>
+  <rect x="110" y="264" width="160" height="1" fill="#333333" opacity="0.15"/>
+  <text x="110" y="286" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Fingerprint sensor</text>
+  <text x="110" y="304" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Skin contact detection</text>
+  <text x="110" y="322" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Liveness verification</text>
+  <rect x="110" y="338" width="100" height="20" rx="10" fill="#0A1A0F"/>
+  <text x="160" y="352" fill="#00E87A" font-family="Inter, sans-serif" font-size="9" font-weight="bold" text-anchor="middle">BIOMETRIC</text>
+
+  <!-- Arrow 1 -->
+  <line x1="300" y1="280" x2="340" y2="280" stroke="#0C0C0C" stroke-width="2"/>
+  <polygon points="336,274 348,280 336,286" fill="#0C0C0C"/>
+
+  <!-- Chain Node 2: App -->
+  <g filter="url(#shadow1)">
+    <rect x="350" y="190" width="220" height="180" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="380" y="210" width="44" height="44" rx="22" fill="#6B7FFF"/>
+  <text x="402" y="240" fill="white" font-family="Inter, sans-serif" font-size="22" text-anchor="middle">&#x2af4;</text>
+  <text x="436" y="236" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="16" font-weight="bold">App</text>
+  <rect x="380" y="264" width="160" height="1" fill="#333333" opacity="0.15"/>
+  <text x="380" y="286" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Guided creation</text>
+  <text x="380" y="304" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Section validation</text>
+  <text x="380" y="322" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Profile management</text>
+  <rect x="380" y="338" width="100" height="20" rx="10" fill="#0A0F1A"/>
+  <text x="430" y="352" fill="#6B7FFF" font-family="Inter, sans-serif" font-size="9" font-weight="bold" text-anchor="middle">AUTHORING</text>
+
+  <!-- Arrow 2 -->
+  <line x1="570" y1="280" x2="610" y2="280" stroke="#0C0C0C" stroke-width="2"/>
+  <polygon points="606,274 618,280 606,286" fill="#0C0C0C"/>
+
+  <!-- Chain Node 3: Signed File -->
+  <g filter="url(#shadow1)">
+    <rect x="620" y="190" width="220" height="180" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="650" y="210" width="44" height="44" rx="22" fill="#FF5F2E"/>
+  <text x="672" y="240" fill="white" font-family="Inter, sans-serif" font-size="22" text-anchor="middle">&#x25a3;</text>
+  <text x="706" y="236" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="16" font-weight="bold">Signed File</text>
+  <rect x="650" y="264" width="160" height="1" fill="#333333" opacity="0.15"/>
+  <text x="650" y="286" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Ed25519 signature</text>
+  <text x="650" y="304" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Tamper detection</text>
+  <text x="650" y="322" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Version tracking</text>
+  <rect x="650" y="338" width="100" height="20" rx="10" fill="#1A0A0A"/>
+  <text x="700" y="352" fill="#FF5F2E" font-family="Inter, sans-serif" font-size="9" font-weight="bold" text-anchor="middle">INTEGRITY</text>
+
+  <!-- Arrow 3 -->
+  <line x1="840" y1="280" x2="880" y2="280" stroke="#0C0C0C" stroke-width="2"/>
+  <polygon points="876,274 888,280 876,286" fill="#0C0C0C"/>
+
+  <!-- Chain Node 4: Module -->
+  <g filter="url(#shadow1)">
+    <rect x="890" y="190" width="220" height="180" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="920" y="210" width="44" height="44" rx="22" fill="#FD7600"/>
+  <text x="942" y="240" fill="white" font-family="Inter, sans-serif" font-size="22" text-anchor="middle">&#x29d6;</text>
+  <text x="976" y="236" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="16" font-weight="bold">Module (BIM)</text>
+  <rect x="920" y="264" width="160" height="1" fill="#333333" opacity="0.15"/>
+  <text x="920" y="286" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Secure element storage</text>
+  <text x="920" y="304" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">BLE 5.0 + NFC broadcast</text>
+  <text x="920" y="322" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Hardware attestation</text>
+  <rect x="920" y="338" width="100" height="20" rx="10" fill="#1A0F0A"/>
+  <text x="970" y="352" fill="#FD7600" font-family="Inter, sans-serif" font-size="9" font-weight="bold" text-anchor="middle">TRANSPORT</text>
+
+  <!-- Arrow 4 -->
+  <line x1="1110" y1="280" x2="1150" y2="280" stroke="#0C0C0C" stroke-width="2"/>
+  <polygon points="1146,274 1158,280 1146,286" fill="#0C0C0C"/>
+
+  <!-- Chain Node 5: AI Agent -->
+  <g filter="url(#shadow1)">
+    <rect x="1160" y="190" width="220" height="180" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="1190" y="210" width="44" height="44" rx="22" fill="#E00061"/>
+  <text x="1212" y="240" fill="white" font-family="Inter, sans-serif" font-size="22" text-anchor="middle">&#x25ce;</text>
+  <text x="1246" y="236" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="16" font-weight="bold">AI Agent</text>
+  <rect x="1190" y="264" width="160" height="1" fill="#333333" opacity="0.15"/>
+  <text x="1190" y="286" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Signature verification</text>
+  <text x="1190" y="304" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Consent enforcement</text>
+  <text x="1190" y="322" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Personalized response</text>
+  <rect x="1190" y="338" width="100" height="20" rx="10" fill="#1A0A1A"/>
+  <text x="1240" y="352" fill="#E00061" font-family="Inter, sans-serif" font-size="9" font-weight="bold" text-anchor="middle">CONSUMER</text>
+
+  <!-- Security Properties Section -->
+  <text x="80" y="420" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="22" font-weight="bold">Security Properties at Each Link</text>
+
+  <g filter="url(#shadow1)">
+    <rect x="80" y="440" width="400" height="160" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <text x="110" y="468" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="14" font-weight="bold">Human &#x2192; App</text>
+  <rect x="110" y="480" width="340" height="1" fill="#333333" opacity="0.15"/>
+  <text x="110" y="500" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">Biometric binding: only the enrolled human</text>
+  <text x="110" y="520" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">can create or modify their identity file</text>
+  <text x="110" y="546" fill="#00E87A" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">Proof: No AI or third party can forge authorship</text>
+  <text x="110" y="566" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Attack surface: stolen biometric (mitigated by liveness)</text>
+
+  <g filter="url(#shadow1)">
+    <rect x="520" y="440" width="400" height="160" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <text x="550" y="468" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="14" font-weight="bold">App &#x2192; Signed File</text>
+  <rect x="550" y="480" width="340" height="1" fill="#333333" opacity="0.15"/>
+  <text x="550" y="500" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">Cryptographic integrity: Ed25519 signature</text>
+  <text x="550" y="520" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">prevents any modification after signing</text>
+  <text x="550" y="546" fill="#6B7FFF" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">Proof: Tampered files fail signature check</text>
+  <text x="550" y="566" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Attack surface: key compromise (mitigated by secure element)</text>
+
+  <g filter="url(#shadow1)">
+    <rect x="960" y="440" width="400" height="160" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <text x="990" y="468" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="14" font-weight="bold">Module &#x2192; AI Agent</text>
+  <rect x="990" y="480" width="340" height="1" fill="#333333" opacity="0.15"/>
+  <text x="990" y="500" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">Hardware attestation: module proves it is</text>
+  <text x="990" y="520" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">genuine hardware, not a software emulator</text>
+  <text x="990" y="546" fill="#FD7600" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">Proof: Attestation certificate verifiable by agent</text>
+  <text x="990" y="566" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Attack surface: physical cloning (mitigated by secure element)</text>
+
+  <!-- Comparison: Software-Only vs human.md -->
+  <text x="80" y="650" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="22" font-weight="bold">Fundamental Difference</text>
+
+  <g filter="url(#shadow1)">
+    <rect x="80" y="670" width="620" height="230" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="110" y="690" width="120" height="28" rx="14" fill="#1A0A0A"/>
+  <text x="170" y="708" fill="#FF5F2E" font-family="D-DIN, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">SOFTWARE ONLY</text>
+  <text x="250" y="708" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">(me.md, me.txt, etc.)</text>
+  <rect x="110" y="724" width="560" height="1" fill="#333333" opacity="0.15"/>
+  <text x="110" y="748" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">&#x2717;  No proof the file was created by the claimed human</text>
+  <text x="110" y="772" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">&#x2717;  Any AI agent could generate an identical file</text>
+  <text x="110" y="796" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">&#x2717;  No tamper detection after creation</text>
+  <text x="110" y="820" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">&#x2717;  No hardware-bound identity verification</text>
+  <text x="110" y="848" fill="#FF5F2E" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">Trust level: NONE — identity is self-asserted, unverifiable</text>
+  <text x="110" y="876" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Extraction model: agents pull data FROM you</text>
+
+  <g filter="url(#shadow1)">
+    <rect x="740" y="670" width="620" height="230" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="770" y="690" width="120" height="28" rx="14" fill="#0A1A0F"/>
+  <text x="830" y="708" fill="#00E87A" font-family="D-DIN, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">HUMAN.MD</text>
+  <text x="910" y="708" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">(biometric + hardware + crypto)</text>
+  <rect x="770" y="724" width="560" height="1" fill="#333333" opacity="0.15"/>
+  <text x="770" y="748" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">&#x2713;  Fingerprint proves human authorship</text>
+  <text x="770" y="772" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">&#x2713;  Ed25519 signature prevents forgery</text>
+  <text x="770" y="796" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">&#x2713;  Secure element protects private keys</text>
+  <text x="770" y="820" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">&#x2713;  Hardware attestation proves genuine module</text>
+  <text x="770" y="848" fill="#00E87A" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">Trust level: CRYPTOGRAPHIC — end-to-end verified identity</text>
+  <text x="770" y="876" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Projection model: you push identity TO agents</text>
+
+  <!-- Bottom bar -->
+  <rect x="40" y="944" width="1360" height="56" rx="28" fill="#EFEFEF" fill-opacity="0.5" filter="url(#shadow2)"/>
+  <text x="80" y="978" fill="#0C0C0C" font-family="NU Sans, Inter, sans-serif" font-size="16" font-weight="bold">humanmd.app</text>
+  <text x="300" y="978" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Outward projection, not inward extraction</text>
+  <text x="1360" y="978" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" text-anchor="end">816 Enterprises LLC</text>
+  <circle cx="640" cy="976" r="6" fill="#00E87A"/>
+  <circle cx="662" cy="976" r="6" fill="#6B7FFF"/>
+  <circle cx="684" cy="976" r="6" fill="#FF5F2E"/>
+  <circle cx="706" cy="976" r="6" fill="#E00061"/>
+  <circle cx="728" cy="976" r="6" fill="#FD7600"/>
+</svg>

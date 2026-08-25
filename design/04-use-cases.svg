@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1024" width="1440" height="1024">
+  <defs>
+    <filter id="shadow1">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="shadow2">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1440" height="1024" rx="20" fill="#E6E6E6"/>
+
+  <!-- Top Navigation Bar -->
+  <rect x="40" y="24" width="1360" height="56" rx="28" fill="#0E0E0E" fill-opacity="0.8" filter="url(#shadow1)"/>
+  <text x="80" y="58" fill="white" font-family="D-DIN, sans-serif" font-size="20" font-weight="bold" letter-spacing="0.05em">human.md</text>
+  <text x="320" y="58" fill="white" font-family="NU Sans, Inter, sans-serif" font-size="14" font-weight="bold" opacity="0.8">Use Cases</text>
+  <text x="1360" y="58" fill="#888888" font-family="Inter, sans-serif" font-size="13" text-anchor="end">PAGE 4 / 5</text>
+
+  <!-- Title -->
+  <text x="80" y="128" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="32" font-weight="bold">Real-World Use Cases</text>
+  <text x="80" y="156" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="15" font-weight="bold">Your identity, projected outward to any AI agent, robot, kiosk, or smart environment</text>
+
+  <!-- Use Case 1: Medical -->
+  <g filter="url(#shadow1)">
+    <rect x="80" y="180" width="410" height="230" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="110" y="200" width="40" height="40" rx="20" fill="#E00061"/>
+  <text x="130" y="226" fill="white" font-family="Inter, sans-serif" font-size="20" text-anchor="middle">+</text>
+  <text x="164" y="226" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="18" font-weight="bold">Medical</text>
+  <rect x="280" y="208" width="80" height="24" rx="12" fill="#1A0A1A"/>
+  <text x="320" y="224" fill="#E00061" font-family="Inter, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">CRITICAL</text>
+  <rect x="110" y="252" width="350" height="1" fill="#333333" opacity="0.15"/>
+  <text x="110" y="274" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Walk into any ER — your BIM broadcasts:</text>
+  <text x="110" y="296" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Allergies, blood type, medications</text>
+  <text x="110" y="316" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Emergency contacts</text>
+  <text x="110" y="336" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Accessibility needs (deaf, blind, mobility)</text>
+  <text x="110" y="356" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Communication preferences</text>
+  <text x="110" y="386" fill="#E00061" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Medical profile auto-activates via context</text>
+
+  <!-- Use Case 2: Retail -->
+  <g filter="url(#shadow1)">
+    <rect x="515" y="180" width="410" height="230" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="545" y="200" width="40" height="40" rx="20" fill="#00E87A"/>
+  <text x="565" y="226" fill="white" font-family="Inter, sans-serif" font-size="20" text-anchor="middle">&#x25a9;</text>
+  <text x="599" y="226" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="18" font-weight="bold">Retail + Commerce</text>
+  <rect x="770" y="208" width="80" height="24" rx="12" fill="#0A1A0F"/>
+  <text x="810" y="224" fill="#00E87A" font-family="Inter, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">ACTIVE</text>
+  <rect x="545" y="252" width="350" height="1" fill="#333333" opacity="0.15"/>
+  <text x="545" y="274" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Walk into any store — kiosks see:</text>
+  <text x="545" y="296" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Size preferences, dietary restrictions</text>
+  <text x="545" y="316" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Language and accessibility needs</text>
+  <text x="545" y="336" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Consent: what data the store CAN'T use</text>
+  <text x="545" y="356" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Preferred UI for screen projection</text>
+  <text x="545" y="386" fill="#00E87A" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">No account needed — identity travels with you</text>
+
+  <!-- Use Case 3: Robots -->
+  <g filter="url(#shadow1)">
+    <rect x="950" y="180" width="410" height="230" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="980" y="200" width="40" height="40" rx="20" fill="#6B7FFF"/>
+  <text x="1000" y="226" fill="white" font-family="Inter, sans-serif" font-size="20" text-anchor="middle">&#x2af4;</text>
+  <text x="1034" y="226" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="18" font-weight="bold">Robots + Autonomous</text>
+  <rect x="1230" y="208" width="80" height="24" rx="12" fill="#0A0F1A"/>
+  <text x="1270" y="224" fill="#6B7FFF" font-family="Inter, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">ACTIVE</text>
+  <rect x="980" y="252" width="350" height="1" fill="#333333" opacity="0.15"/>
+  <text x="980" y="274" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Delivery robot or assistant approaches — knows:</text>
+  <text x="980" y="296" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Your name and how to address you</text>
+  <text x="980" y="316" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Emotional boundaries (don't surprise me)</text>
+  <text x="980" y="336" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Consent tier: what it can/can't do</text>
+  <text x="980" y="356" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Sensory: approach speed, volume level</text>
+  <text x="980" y="386" fill="#6B7FFF" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Robot respects YOUR rules, not its defaults</text>
+
+  <!-- Use Case 4: Smart Home -->
+  <g filter="url(#shadow1)">
+    <rect x="80" y="430" width="410" height="230" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="110" y="450" width="40" height="40" rx="20" fill="#FD7600"/>
+  <text x="130" y="476" fill="white" font-family="Inter, sans-serif" font-size="20" text-anchor="middle">&#x25ce;</text>
+  <text x="164" y="476" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="18" font-weight="bold">Smart Home</text>
+  <rect x="310" y="458" width="80" height="24" rx="12" fill="#1A0F0A"/>
+  <text x="350" y="474" fill="#FD7600" font-family="Inter, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">AMBIENT</text>
+  <rect x="110" y="502" width="350" height="1" fill="#333333" opacity="0.15"/>
+  <text x="110" y="524" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Walk through your door — home adapts:</text>
+  <text x="110" y="546" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Lighting, temperature from sensory prefs</text>
+  <text x="110" y="566" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Music/media based on profile context</text>
+  <text x="110" y="586" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Guest vs resident permissions</text>
+  <text x="110" y="606" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Per-person consent (no recording zones)</text>
+  <text x="110" y="636" fill="#FD7600" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Every person's BIM configures the space for them</text>
+
+  <!-- Use Case 5: Airport / Travel -->
+  <g filter="url(#shadow1)">
+    <rect x="515" y="430" width="410" height="230" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="545" y="450" width="40" height="40" rx="20" fill="#FF3838"/>
+  <text x="565" y="476" fill="white" font-family="Inter, sans-serif" font-size="20" text-anchor="middle">&#x29d6;</text>
+  <text x="599" y="476" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="18" font-weight="bold">Airport + Travel</text>
+  <rect x="770" y="458" width="80" height="24" rx="12" fill="#1A0A0A"/>
+  <text x="810" y="474" fill="#FF3838" font-family="Inter, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">TRANSIT</text>
+  <rect x="545" y="502" width="350" height="1" fill="#333333" opacity="0.15"/>
+  <text x="545" y="524" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Navigate any airport — kiosks recognize:</text>
+  <text x="545" y="546" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Language for wayfinding and instructions</text>
+  <text x="545" y="566" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Accessibility: wheelchair, visual guides</text>
+  <text x="545" y="586" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Dietary needs for lounge/food options</text>
+  <text x="545" y="606" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  UI projection: your dashboard on any screen</text>
+  <text x="545" y="636" fill="#FF3838" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Zero app installs — works with any compatible terminal</text>
+
+  <!-- Use Case 6: UI Projection -->
+  <g filter="url(#shadow1)">
+    <rect x="950" y="430" width="410" height="230" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <rect x="980" y="450" width="40" height="40" rx="20" fill="#4060FF"/>
+  <text x="1000" y="476" fill="white" font-family="Inter, sans-serif" font-size="20" text-anchor="middle">&#x25a3;</text>
+  <text x="1034" y="476" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="18" font-weight="bold">UI Projection</text>
+  <rect x="1200" y="458" width="80" height="24" rx="12" fill="#0A0F1A"/>
+  <text x="1240" y="474" fill="#4060FF" font-family="Inter, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">DISPLAY</text>
+  <rect x="980" y="502" width="350" height="1" fill="#333333" opacity="0.15"/>
+  <text x="980" y="524" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Walk up to any compatible screen:</text>
+  <text x="980" y="546" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Your personal dashboard appears</text>
+  <text x="980" y="566" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Sandboxed: no data persists on host</text>
+  <text x="980" y="586" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Session = proximity (walk away = gone)</text>
+  <text x="980" y="606" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">&#x2713;  Your tools, your layout, any screen</text>
+  <text x="980" y="636" fill="#4060FF" font-family="NU Sans, Inter, sans-serif" font-size="11" font-weight="bold">Every screen becomes YOUR screen</text>
+
+  <!-- Fundamental Inversion Banner -->
+  <g filter="url(#shadow1)">
+    <rect x="80" y="686" width="1280" height="200" rx="20" fill="white" fill-opacity="0.5"/>
+  </g>
+  <text x="720" y="720" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">The Fundamental Inversion</text>
+
+  <!-- Old way -->
+  <rect x="120" y="744" width="540" height="120" rx="16" fill="#EFEFEF" fill-opacity="0.8"/>
+  <rect x="150" y="764" width="140" height="28" rx="14" fill="#1A0A0A"/>
+  <text x="220" y="782" fill="#FF5F2E" font-family="D-DIN, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">INWARD EXTRACTION</text>
+  <text x="150" y="814" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Every app, agent, and service asks YOU</text>
+  <text x="150" y="836" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">for your data — different forms, every time</text>
+  <text x="150" y="856" fill="#FF5F2E" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">You are the product. They extract from you.</text>
+
+  <!-- Arrow -->
+  <text x="700" y="815" fill="#0C0C0C" font-family="D-DIN, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">&#x2192;</text>
+
+  <!-- New way -->
+  <rect x="780" y="744" width="540" height="120" rx="16" fill="#EFEFEF" fill-opacity="0.8"/>
+  <rect x="810" y="764" width="160" height="28" rx="14" fill="#0A1A0F"/>
+  <text x="890" y="782" fill="#00E87A" font-family="D-DIN, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">OUTWARD PROJECTION</text>
+  <text x="810" y="814" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">YOU broadcast your identity on YOUR terms</text>
+  <text x="810" y="836" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">to agents — once, signed, consent-gated</text>
+  <text x="810" y="856" fill="#00E87A" font-family="NU Sans, Inter, sans-serif" font-size="12" font-weight="bold">You own your identity. You project it outward.</text>
+
+  <!-- Bottom bar -->
+  <rect x="40" y="944" width="1360" height="56" rx="28" fill="#EFEFEF" fill-opacity="0.5" filter="url(#shadow2)"/>
+  <text x="80" y="978" fill="#0C0C0C" font-family="NU Sans, Inter, sans-serif" font-size="16" font-weight="bold">humanmd.app</text>
+  <text x="300" y="978" fill="#888888" font-family="NU Sans, Inter, sans-serif" font-size="13" font-weight="bold">Your identity, your rules, any environment</text>
+  <text x="1360" y="978" fill="#666666" font-family="NU Sans, Inter, sans-serif" font-size="13" text-anchor="end">816 Enterprises LLC</text>
+  <circle cx="640" cy="976" r="6" fill="#00E87A"/>
+  <circle cx="662" cy="976" r="6" fill="#6B7FFF"/>
+  <circle cx="684" cy="976" r="6" fill="#FF5F2E"/>
+  <circle cx="706" cy="976" r="6" fill="#E00061"/>
+  <circle cx="728" cy="976" r="6" fill="#FD7600"/>
+</svg>
